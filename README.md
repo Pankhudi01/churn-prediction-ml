@@ -2,7 +2,7 @@
 This project predicts customer churn using machine learning models (Logistic Regression, Random Forest, XGBoost). Includes dataset preprocessing, model training, performance evaluation with metrics, and insights into customer behavior.
 
 # Dataset Description
-- Source: [Dataset Link](https://your-dataset-link.com)  
+- Source: [Dataset Link](https://www.kaggle.com/datasets/muhammadshahidazeem/customer-churn-dataset)  
 - Features: Features (Key Columns):
   * gender: Customer’s gender (Male/Female)
   * SeniorCitizen: Senior citizen status (1 = Yes, 0 = No)
@@ -28,11 +28,10 @@ This project predicts customer churn using machine learning models (Logistic Reg
 # Results & Insights
 - Logistic Regression achieved **0.802% accuracy / 0.591 F1 score**.  
 - Customer tenure and contract type play a crucial role in churn prediction.
-  * Key Insights:
-    - Overall churn rate is 27%, with most churn concentrated among new customers.
-    - Customers with short tenure (<12 months) and high monthly charges are the most likely to churn.
-    - Customers with high total charges (long-term, loyal customers) show much lower churn rates.
-    - This indicates that the first few months are critical in customer retention.
+- Key Insights:
+  - Overall churn rate is 27%, with most churn concentrated among new customers.
+  - Customers with short tenure (<12 months) and high monthly charges are the most likely to churn.
+  - Customers with high total charges (long-term, loyal customers) show much lower churn rates.This indicates that the first few months are critical in customer retention.
   * Business Implication:
     Focus on **early retention strategies** such as onboarding offers, discounts, or loyalty programs for high-value new customers to reduce churn and  maximize lifetime value.
-- 
+ 
